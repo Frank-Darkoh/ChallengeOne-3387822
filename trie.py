@@ -1,17 +1,10 @@
-# ChallengeOne-3387822
-
-
-
-
-
-
 class TrieNode:
-    def __init__(self):
+    def _init_(self):
         self.children = {}
         self.is_end = False
 
 class Trie:
-    def __init__(self):
+    def _init_(self):
         self.root = TrieNode()
 
     def insert(self, word: str) -> None:
